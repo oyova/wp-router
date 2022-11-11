@@ -62,6 +62,10 @@ class Router extends Container {
 		);
 	}
 
+	public function request(): Request {
+		return $this['request'];
+	}
+
 	public function route(
 		string $name,
 		$parameters = array(),
