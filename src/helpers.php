@@ -11,9 +11,9 @@ if ( ! function_exists( 'oyo_router' ) ) {
 if ( ! function_exists( 'oyo_route' ) ) {
 	function oyo_route(
 		string $name,
-		$parameters = array(),
+		array|string|int|float|bool $parameters = array(),
 		bool $absolute = true
-	) {
+	): string {
 		return oyo_router()->route( $name, $parameters, $absolute );
 	}
 }

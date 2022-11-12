@@ -17,16 +17,16 @@
         }
     },
     "require": {
-        "php": ">=7.4",
-        "illuminate/container": "^8.83",
-        "illuminate/events": "^8.83",
-        "illuminate/http": "^8.83",
-        "illuminate/routing": "^8.83",
-        "illuminate/support": "^8.83"
+        "php": ">=8.0",
+        "illuminate/container": "^9.39",
+        "illuminate/events": "^9.39",
+        "illuminate/http": "^9.39",
+        "illuminate/routing": "^9.39",
+        "illuminate/support": "^9.39"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
-        "symfony/var-dumper": "^5.4"
+        "symfony/var-dumper": "^6.0"
     },
     "config": {
         "optimize-autoloader": true,

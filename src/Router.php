@@ -68,7 +68,7 @@ class Router extends Container {
 
 	public function route(
 		string $name,
-		$parameters = array(),
+		array|string|int|float|bool $parameters = array(),
 		bool $absolute = true
 	): string {
 		return $this['url']->route( $name, $parameters, $absolute );
