@@ -1,6 +1,6 @@
 {
     "name": "oyova/wp-router",
-    "description": "A router for custom WordPress routes.",
+    "description": "A Laravel router for custom WordPress routes.",
     "type": "project",
     "license": "MIT",
     "autoload": {
@@ -11,18 +11,13 @@
             "src/helpers.php"
         ]
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
-        }
-    },
     "require": {
         "php": ">=8.0",
-        "illuminate/container": "^9.39",
-        "illuminate/events": "^9.39",
-        "illuminate/http": "^9.39",
-        "illuminate/routing": "^9.39",
-        "illuminate/support": "^9.39"
+        "illuminate/container": "^9.43",
+        "illuminate/events": "^9.43",
+        "illuminate/http": "^9.43",
+        "illuminate/routing": "^9.43",
+        "illuminate/support": "^9.43"
     },
     "require-dev": {
         "oyova/php-cs-fixer": "^1.1",
