@@ -25,6 +25,7 @@
         "illuminate/support": "^9.39"
     },
     "require-dev": {
+        "oyova/php-cs-fixer": "^1.1",
         "symfony/var-dumper": "^6.0"
     },
     "config": {

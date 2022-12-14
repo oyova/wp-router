@@ -10,7 +10,6 @@ use Illuminate\Routing\UrlGenerator;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class Router extends Container {
-
 	public function __construct() {
 		static::setInstance( $this );
 		$this->register_route_facade();
